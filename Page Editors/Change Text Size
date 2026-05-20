@@ -1,0 +1,1 @@
+javascript:(function(){var size=prompt('Type a text size (like 25px or 40px):','30px');if(size){var el=document.createElement('style');el.innerHTML=`* { font-size: ${size} !important; }`;document.head.appendChild(el);}})();
