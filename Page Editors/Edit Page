@@ -1,0 +1,1 @@
+javascript:(function(){var active=(document.body.contentEditable==='true');document.body.contentEditable=active?'false':'true';document.designMode=active?'off':'on';alert('Type Mode: '+(active?'OFF':'ON'));})();
